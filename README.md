@@ -1,16 +1,47 @@
 # flutter_boilerplate
 
-A new Flutter project for Starting new project using Redux
+A new Flutter Boilerplate project for starting new project using FilledStacks' responsive architecture using Providers
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Initialized the project with the following project structure:
 
-A few resources to get you started if this is your first Flutter project:
+--root
+    |-- android
+    |-- build
+    |-- ios
+    |-- lib
+        |-- core
+            |-- base
+                |-- base_model.dart
+                |-- base_service.dart
+                |-- base_view_model.dart
+            |-- models
+            |-- services
+                |-- navigation_service.dart
+            locator.dart
+            logger.dart
+            providers.dart
+        |-- theme
+        |-- views
+            |-- home
+                |-- home_desktop.dart
+                |-- home_mobile.dart
+                |-- home_tablet.dart
+                |-- home_view_model.dart
+                |-- home_view.dart
+        |-- widgets
+        main.dart
+    |-- test
+    |-- .gitignore
+    |-- pubspec.yaml
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+It will also add the following dependencies to the pubspec.yaml file
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dependencies
+
+responsive_builder: ^0.1.4
+provider: ^3.2.0
+logger: ^0.7.0+2
+get_it: ^3.0.3
+equatable: ^1.0.1
