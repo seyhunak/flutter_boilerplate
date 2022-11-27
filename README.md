@@ -1,5 +1,7 @@
 # flutter_boilerplate
 
+![flutter_boilerplate](https://github.com/seyhunak/flutter_boilerplate/blob/master/assets/Flutter.png?raw=true "Flutter Boilerplate")
+
 A new Flutter Boilerplate project for starting new project using FilledStacks' responsive architecture using Providers
 
 ## Getting Started
