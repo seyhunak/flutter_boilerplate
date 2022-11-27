@@ -1,13 +1,18 @@
-# flutter_boilerplate
+# 1. flutter_boilerplate
+
+- [1. flutter\_boilerplate](#1-flutter_boilerplate)
+  - [1.1. Getting Started](#11-getting-started)
+  - [Dependencies](#dependencies)
 
 ![flutter_boilerplate](https://github.com/seyhunak/flutter_boilerplate/blob/master/assets/Flutter.png?raw=true "Flutter Boilerplate")
 
 A new Flutter Boilerplate project for starting new project using FilledStacks' responsive architecture using Providers
 
-## Getting Started
+## 1.1. Getting Started
 
 Initialized the project with the following project structure:
 
+```
 --root
     |-- android
     |-- build
@@ -37,13 +42,16 @@ Initialized the project with the following project structure:
     |-- test
     |-- .gitignore
     |-- pubspec.yaml
+```
 
 It will also add the following dependencies to the pubspec.yaml file
 
-Dependencies
+## Dependencies
 
+```
 responsive_builder: ^0.1.4
 provider: ^3.2.0
 logger: ^0.7.0+2
 get_it: ^3.0.3
 equatable: ^1.0.1
+```
